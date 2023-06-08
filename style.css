@@ -339,6 +339,7 @@ body.dark {
         transform: rotate(90deg);
     }
     .mode {
+        position: absolute;
         top: 5px;
     }
 }
