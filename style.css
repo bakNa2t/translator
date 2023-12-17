@@ -9,6 +9,7 @@
   --primary-text-color: #fff;
   --thumb-color: #00a86b;
   --toggle-box-shadow: 0px 0px 5px rgba(0, 168, 107, 0.9);
+  --area-box-shadow: 0px 0px 4px 1px rgba(0, 168, 107, 0.5);
   --description-color: #00a86b;
   --span-color: #8db600;
 }
@@ -36,6 +37,7 @@ body.dark {
   --light-text-color: #b2beb5;
   --thumb-color: #f0f8ff;
   --toggle-box-shadow: 0px 0px 5px rgba(240, 255, 255, 0.9);
+  --area-box-shadow: 0px 0px 4px 1px rgba(240, 255, 255, 0.5);
   --description-color: #cdccd1;
   --span-color: #adff2f;
 }
@@ -195,6 +197,7 @@ noscript h3 {
 .container textarea:focus {
   background-color: var(--bg-color);
   transition: all 0.5s ease-in-out;
+  box-shadow: var(--area-box-shadow);
 }
 
 .container .text-area .chars {
